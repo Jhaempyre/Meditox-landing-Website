@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: landing-site
-        image: frontend:latest
+        image: jhaempire/meditox-landing:latest
         ports:
         - containerPort: 80
         resources:

@@ -6,11 +6,10 @@ metadata:
   labels:
     app: landing-site
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: landing-site
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30082
     protocol: TCP
